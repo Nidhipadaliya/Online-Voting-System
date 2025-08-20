@@ -1,0 +1,20 @@
+﻿.election-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #0059b3;
+    font-weight: bold;
+}
+
+.vote-btn {
+    background-color: #0059b3;
+    color: #fff;
+    font-weight: bold;
+}
+
+    .vote-btn:hover {
+        background-color: #ffcc00;
+        color: #003366;
+    }

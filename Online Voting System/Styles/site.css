@@ -1,0 +1,22 @@
+﻿body {
+    background-color: #f4f6f8;
+}
+
+.navbar .nav-link:hover {
+    color: #ffcc00 !important;
+}
+
+
+.navbar .fw-bold {
+    color: #fff;
+}
+
+.navbar-nav .nav-link,
+.navbar-brand {
+    color: white !important;
+}
+
+    .navbar-nav .nav-link:hover,
+    .navbar-brand:hover {
+        color: #ffcc00 !important; 
+    }
