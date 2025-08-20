@@ -5,16 +5,33 @@
     <meta charset="utf-8" />
     <title>Online Voting System</title>
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap 5.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="Styles/site.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+
+    <style>
+        /* Flexbox layout to push footer down */
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1; /* takes available space */
+        }
+    </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" class="d-flex flex-column min-vh-100">
 
         <!-- Bootstrap Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
@@ -29,21 +46,21 @@
 
                 <!-- Navbar Links -->
                 <div class="collapse navbar-collapse" id="mainNavbar">
-                    <!-- Left Menu -->
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                        <li class="nav-item" id="liHome" runat="server">
                             <asp:HyperLink NavigateUrl="~/Home.aspx" Text="Home" CssClass="nav-link" runat="server" />
                         </li>
 
                         <!-- User Menu -->
-                        <asp:Panel ID="pnlUserNav" runat="server" Visible="false">
+                        <asp:Panel ID="pnlUserNav" runat="server" Visible="false" RenderMode="Inline" CssClass="d-flex">
                             <li class="nav-item"><asp:HyperLink NavigateUrl="~/User/UserDashboard.aspx" Text="Dashboard" CssClass="nav-link" runat="server" /></li>
                             <li class="nav-item"><asp:HyperLink NavigateUrl="~/User/ElectionList.aspx" Text="Election List" CssClass="nav-link" runat="server" /></li>
+                            <li class="nav-item"><asp:HyperLink NavigateUrl="~/User/VoteCasting.aspx" Text="Vote Casting" CssClass="nav-link" runat="server" /></li>
                             <li class="nav-item"><asp:HyperLink NavigateUrl="~/User/VotingStatus.aspx" Text="Voting Status" CssClass="nav-link" runat="server" /></li>
                         </asp:Panel>
 
                         <!-- Admin Menu -->
-                        <asp:Panel ID="pnlAdminNav" runat="server" Visible="false">
+                        <asp:Panel ID="pnlAdminNav" runat="server" Visible="false" RenderMode="Inline" CssClass="d-flex">
                             <li class="nav-item"><asp:HyperLink NavigateUrl="~/Admin/AdminDashboard.aspx" Text="Dashboard" CssClass="nav-link" runat="server" /></li>
                             <li class="nav-item"><asp:HyperLink NavigateUrl="~/Admin/CreateElection.aspx" Text="Create Election" CssClass="nav-link" runat="server" /></li>
                             <li class="nav-item"><asp:HyperLink NavigateUrl="~/Admin/ManageCandidates.aspx" Text="Manage Candidates" CssClass="nav-link" runat="server" /></li>
@@ -52,19 +69,16 @@
                         </asp:Panel>
                     </ul>
 
-                    <!-- Right Menu (Login/Register or User Info) -->
+                    <!-- Right side -->
                     <ul class="navbar-nav ms-auto">
                         <!-- Guest View -->
-                        <asp:Panel ID="pnlGuestNav" runat="server" Visible="true">
+                        <asp:Panel ID="pnlGuestNav" runat="server" Visible="true" RenderMode="Inline" CssClass="d-flex">
                             <li class="nav-item"><asp:HyperLink NavigateUrl="~/Login.aspx" Text="Login" CssClass="nav-link" runat="server" /></li>
                             <li class="nav-item"><asp:HyperLink NavigateUrl="~/Register.aspx" Text="Register" CssClass="nav-link" runat="server" /></li>
                         </asp:Panel>
 
                         <!-- Logged-in View -->
-                        <asp:Panel ID="pnlCommonNav" runat="server" Visible="false">
-                            <li class="nav-item d-flex align-items-center text-white px-2">
-                                Welcome, <asp:Label ID="lblUserName" runat="server" CssClass="fw-bold ms-1" />
-                            </li>
+                        <asp:Panel ID="pnlCommonNav" runat="server" Visible="false" RenderMode="Inline" CssClass="d-flex">
                             <li class="nav-item"><asp:HyperLink NavigateUrl="~/Logout.aspx" Text="Logout" CssClass="nav-link" runat="server" /></li>
                         </asp:Panel>
                     </ul>
@@ -73,14 +87,14 @@
         </nav>
 
         <!-- Main Content -->
-        <main class="container my-4">
+        <main class="container my-4 flex-grow-1">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
         </main>
 
         <!-- Footer -->
-        <footer class="bg-primary text-white text-center py-3 mt-auto">
-            © 2025 Online Voting System | For Educational Use
-        </footer>
+        <footer class="bg-primary text-white text-center py-3 fixed-bottom">
+    © 2025 Online Voting System | For Educational Use
+</footer>
 
     </form>
 

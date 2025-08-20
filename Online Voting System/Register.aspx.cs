@@ -10,14 +10,15 @@ using System.Web.UI.WebControls;
 
 namespace Online_Voting_System.Styles
 {
-	public partial class Register : System.Web.UI.Page
-	{
+    public partial class Register : System.Web.UI.Page
+    {
         string s = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
         SqlConnection con;
         SqlCommand cmd;
         protected void Page_Load(object sender, EventArgs e)
         {
             getcon();
+            
         }
 
         void getcon()
@@ -33,14 +34,22 @@ namespace Online_Voting_System.Styles
             string password = txtPassword.Text;
             string confirmPassword = txtConfirmPassword.Text;
 
-            // 1️⃣ Check if passwords match
+            
+            if (string.IsNullOrEmpty(fullName) || string.IsNullOrEmpty(email) ||
+                string.IsNullOrEmpty(password) || string.IsNullOrEmpty(confirmPassword))
+            {
+                Response.Write("<script>alert('All fields are required!');</script>");
+                return;
+            }
+
+            
             if (password != confirmPassword)
             {
                 Response.Write("<script>alert('Passwords do not match!');</script>");
                 return;
             }
 
-            // 2️⃣ Check if email already exists
+            
             cmd = new SqlCommand("SELECT COUNT(*) FROM Users WHERE Email=@e", con);
             cmd.Parameters.AddWithValue("@e", email);
 
@@ -51,19 +60,18 @@ namespace Online_Voting_System.Styles
                 return;
             }
 
-            // 3️⃣ Insert new user
-            cmd = new SqlCommand("INSERT INTO Users (FullName, Email, Password, Role) VALUES (@f, @e, @p, 'User')", con);
-            cmd.Parameters.AddWithValue("@f", fullName);
-            cmd.Parameters.AddWithValue("@e", email);
-            cmd.Parameters.AddWithValue("@p", password);
+            
+            cmd = new SqlCommand("INSERT INTO Users (FullName, Email, Password, Role) VALUES ('"
+                                 + txtFullName.Text + "', '"
+                                 + txtEmail.Text + "', '"
+                                 + txtPassword.Text + "', 'User')", con);
 
             int rows = cmd.ExecuteNonQuery();
 
             if (rows > 0)
             {
-                Session["email"] = email;
-                Session["role"] = "User";
-                Response.Redirect("Login.aspx");
+                
+                Response.Write("<script>alert('Registration successful! Redirecting to login...'); window.location='Login.aspx';</script>");
             }
             else
             {

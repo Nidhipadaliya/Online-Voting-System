@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\online voting system\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|c:\\users\\nidhi padaliya\\source\\repos\\online voting system\\online voting system\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|c:\\users\\nidhi padaliya\\source\\repos\\online voting system\\online voting system\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\online voting system\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\online voting system\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\online voting system\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\online voting system\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\online voting system\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\online voting system\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\online voting system\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\online voting system\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\online voting system\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\online voting system\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\online voting system\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\online voting system\\site1.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\site1.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,55 +54,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "Online Voting System\\Login.aspx.cs",
-              "ToolTip": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Login.aspx.cs",
-              "RelativeToolTip": "Online Voting System\\Login.aspx.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwDMAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T16:06:13.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Register.aspx.cs",
-              "RelativeDocumentMoniker": "Online Voting System\\Register.aspx.cs",
-              "ToolTip": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Register.aspx.cs",
-              "RelativeToolTip": "Online Voting System\\Register.aspx.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwEYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T16:06:04.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Web.config",
-              "RelativeDocumentMoniker": "Online Voting System\\Web.config",
-              "ToolTip": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Web.config",
-              "RelativeToolTip": "Online Voting System\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-08-17T16:05:16.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Site1.Master",
               "DocumentMoniker": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Site1.Master",
               "RelativeDocumentMoniker": "Online Voting System\\Site1.Master",
               "ToolTip": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Site1.Master",
               "RelativeToolTip": "Online Voting System\\Site1.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-08-17T16:05:14.402Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Site1.Master.cs",
+              "DocumentMoniker": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Site1.Master.cs",
+              "RelativeDocumentMoniker": "Online Voting System\\Site1.Master.cs",
+              "ToolTip": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Site1.Master.cs",
+              "RelativeToolTip": "Online Voting System\\Site1.Master.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T12:44:22.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Online Voting System\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Login.aspx.cs",
+              "RelativeToolTip": "Online Voting System\\Login.aspx.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAUwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T16:06:13.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Register.aspx.cs",
+              "RelativeDocumentMoniker": "Online Voting System\\Register.aspx.cs",
+              "ToolTip": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Register.aspx.cs",
+              "RelativeToolTip": "Online Voting System\\Register.aspx.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswEgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T16:06:04.803Z"
             },
             {
               "$type": "Document",
@@ -116,25 +108,25 @@
               "RelativeDocumentMoniker": "Online Voting System\\Register.aspx",
               "ToolTip": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Register.aspx",
               "RelativeToolTip": "Online Voting System\\Register.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-17T16:05:12.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T16:05:12.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Logout.aspx",
               "DocumentMoniker": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Logout.aspx",
               "RelativeDocumentMoniker": "Online Voting System\\Logout.aspx",
               "ToolTip": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Logout.aspx",
               "RelativeToolTip": "Online Voting System\\Logout.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-17T16:05:10.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T16:05:10.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Login.aspx",
               "DocumentMoniker": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\Login.aspx",
               "RelativeDocumentMoniker": "Online Voting System\\Login.aspx",
@@ -142,21 +134,7 @@
               "RelativeToolTip": "Online Voting System\\Login.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-17T16:05:09.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\.gitignore",
-              "RelativeDocumentMoniker": "Online Voting System\\.gitignore",
-              "ToolTip": "C:\\Users\\Nidhi Padaliya\\source\\repos\\Online Voting System\\Online Voting System\\.gitignore",
-              "RelativeToolTip": "Online Voting System\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-08-17T16:05:06.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T16:05:09.06Z"
             },
             {
               "$type": "Document",

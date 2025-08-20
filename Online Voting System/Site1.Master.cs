@@ -13,11 +13,13 @@ namespace Online_Voting_System
 		{
             if (!IsPostBack)
             {
-                if (Session["Role"] != null)
+                if (Session["Role"] != null) // Logged in
                 {
                     pnlGuestNav.Visible = false;
                     pnlCommonNav.Visible = true;
-                    lblUserName.Text = Session["Username"]?.ToString();
+
+                    // Hide Home link for logged-in users
+                    liHome.Visible = false;
 
                     if (Session["Role"].ToString() == "User")
                     {
@@ -30,12 +32,15 @@ namespace Online_Voting_System
                         pnlAdminNav.Visible = true;
                     }
                 }
-                else
+                else // Guest
                 {
                     pnlGuestNav.Visible = true;
                     pnlCommonNav.Visible = false;
                     pnlUserNav.Visible = false;
                     pnlAdminNav.Visible = false;
+
+                    // Show Home only for guests
+                    liHome.Visible = true;
                 }
             }
         }
