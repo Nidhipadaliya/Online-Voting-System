@@ -1,17 +1,38 @@
-﻿.election-card img {
-    height: 220px;
-    object-fit: cover;
+﻿h2 {
+    font-weight: bold;
+    color: #003366;
 }
 
+/* Card Styling */
+.election-card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .election-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+    }
+
+    .election-card img {
+        height: 220px;
+        object-fit: cover;
+    }
+
+/* Title inside cards */
 .card-title {
     color: #0059b3;
     font-weight: bold;
 }
 
+/* Vote Button */
 .vote-btn {
     background-color: #0059b3;
     color: #fff;
     font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 
     .vote-btn:hover {

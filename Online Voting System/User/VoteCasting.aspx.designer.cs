@@ -15,30 +15,21 @@ namespace Online_Voting_System.User
     {
 
         /// <summary>
-        /// btnVoteJohn control.
+        /// rptCandidates control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnVoteJohn;
+        protected global::System.Web.UI.WebControls.Repeater rptCandidates;
 
         /// <summary>
-        /// btnVoteSarah control.
+        /// pnlNoElection control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnVoteSarah;
-
-        /// <summary>
-        /// btnVoteMichael control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnVoteMichael;
+        protected global::System.Web.UI.WebControls.Panel pnlNoElection;
     }
 }

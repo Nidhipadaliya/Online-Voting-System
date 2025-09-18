@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Online_Voting_System.Login" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Styles/login.css" rel="stylesheet" />
 </asp:Content>
@@ -9,9 +10,17 @@
 
         <label for="txtUsername">Username</label>
         <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="rfvUsername" runat="server"
+            ControlToValidate="txtUsername"
+            ErrorMessage="Username is required"
+            CssClass="text-danger" Display="Dynamic" />
 
         <label for="txtPassword">Password</label>
         <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="rfvPassword" runat="server"
+            ControlToValidate="txtPassword"
+            ErrorMessage="Password is required"
+            CssClass="text-danger" Display="Dynamic" />
 
         <label for="ddlRole">Select Role</label>
         <asp:DropDownList ID="ddlRole" runat="server">

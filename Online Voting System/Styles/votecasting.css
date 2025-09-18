@@ -1,0 +1,41 @@
+﻿/* Candidate Cards */
+.candidate-card {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .candidate-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+    }
+
+    /* Candidate Image */
+    .candidate-card img {
+        height: 250px;
+        object-fit: cover; /* Keeps head visible */
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        background-color: #f8f9fa;
+    }
+
+    /* Candidate Title */
+    .candidate-card .card-title {
+        font-weight: bold;
+        color: #003366;
+    }
+
+/* Vote Button */
+.vote-btn {
+    background-color: #0059b3;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    width: 100%;
+}
+
+    .vote-btn:hover {
+        background-color: #ffcc00;
+        color: #003366;
+    }

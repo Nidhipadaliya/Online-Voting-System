@@ -1,0 +1,27 @@
+﻿h2 {
+    font-weight: bold;
+    color: #003366;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    font-size: 18px;
+}
+
+.table {
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+    .table th, .table td {
+        text-align: center;
+    }
+
+.badge {
+    font-size: 0.85rem;
+    padding: 6px 12px;
+}

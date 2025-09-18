@@ -30,33 +30,20 @@ namespace Online_Voting_System
         protected void btnLogin_Click(object sender, EventArgs e)
         {
             string username = txtUsername.Text;
-            string password = txtPassword.Text;
             string role = ddlRole.SelectedValue;
 
-            
-            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(role))
-            {
-                Response.Write("<script>alert('All fields are required!');</script>");
-                return;
-            }
-
-            
-            cmd = new SqlCommand("SELECT COUNT(*) FROM Users WHERE Email=@u AND Password=@p AND Role=@r", con);
-            cmd.Parameters.AddWithValue("@u", username);
-            cmd.Parameters.AddWithValue("@p", password);
-            cmd.Parameters.AddWithValue("@r", role);
+            cmd = new SqlCommand("SELECT COUNT(*) FROM Users WHERE Email='" + txtUsername.Text + "' AND Password='" + txtPassword.Text + "' AND Role='" + ddlRole.SelectedValue + "'", con);
 
             int exists = (int)cmd.ExecuteScalar();
 
             if (exists > 0)
             {
-                
                 Session["email"] = username;
                 Session["role"] = role;
 
                 if (role == "Admin")
                 {
-                    Response.Redirect("~/User/AdminDashboard.aspx");
+                    Response.Redirect("~/Admin/AdminDashboard.aspx");
                 }
                 else
                 {

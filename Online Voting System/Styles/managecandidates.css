@@ -1,0 +1,20 @@
+﻿body {
+    background-color: #f4f6f8;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.table {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}

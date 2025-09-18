@@ -13,7 +13,7 @@ namespace Online_Voting_System
 		{
             if (!IsPostBack)
             {
-                if (Session["Role"] != null) // Logged in
+                if (Session["Role"] != null) 
                 {
                     pnlGuestNav.Visible = false;
                     pnlCommonNav.Visible = true;

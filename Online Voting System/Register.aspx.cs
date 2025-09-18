@@ -4,6 +4,7 @@ using System.Configuration;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -18,7 +19,7 @@ namespace Online_Voting_System.Styles
         protected void Page_Load(object sender, EventArgs e)
         {
             getcon();
-            
+
         }
 
         void getcon()
@@ -29,29 +30,7 @@ namespace Online_Voting_System.Styles
 
         protected void btnRegister_Click(object sender, EventArgs e)
         {
-            string fullName = txtFullName.Text;
-            string email = txtEmail.Text;
-            string password = txtPassword.Text;
-            string confirmPassword = txtConfirmPassword.Text;
-
-            
-            if (string.IsNullOrEmpty(fullName) || string.IsNullOrEmpty(email) ||
-                string.IsNullOrEmpty(password) || string.IsNullOrEmpty(confirmPassword))
-            {
-                Response.Write("<script>alert('All fields are required!');</script>");
-                return;
-            }
-
-            
-            if (password != confirmPassword)
-            {
-                Response.Write("<script>alert('Passwords do not match!');</script>");
-                return;
-            }
-
-            
-            cmd = new SqlCommand("SELECT COUNT(*) FROM Users WHERE Email=@e", con);
-            cmd.Parameters.AddWithValue("@e", email);
+            cmd = new SqlCommand("SELECT COUNT(*) FROM Users WHERE Email='" + txtEmail.Text + "'", con);
 
             int exists = (int)cmd.ExecuteScalar();
             if (exists > 0)
@@ -60,23 +39,11 @@ namespace Online_Voting_System.Styles
                 return;
             }
 
-            
-            cmd = new SqlCommand("INSERT INTO Users (FullName, Email, Password, Role) VALUES ('"
-                                 + txtFullName.Text + "', '"
-                                 + txtEmail.Text + "', '"
-                                 + txtPassword.Text + "', 'User')", con);
+            cmd = new SqlCommand("INSERT INTO Users (FullName, Email, Age, Department,Enrollment ,City, Password, Role) VALUES ('" + txtFullName.Text + "', '" + txtEmail.Text + "','" + txtage.Text + "','" + drpdep.Text + "', '" + txtenrollment.Text + "',  '" + txtct.Text + "',  '" + txtPassword.Text + "', 'User')", con);
 
-            int rows = cmd.ExecuteNonQuery();
+            cmd.ExecuteNonQuery();
 
-            if (rows > 0)
-            {
-                
-                Response.Write("<script>alert('Registration successful! Redirecting to login...'); window.location='Login.aspx';</script>");
-            }
-            else
-            {
-                Response.Write("<script>alert('Error occurred. Please try again.');</script>");
-            }
+            Response.Redirect("Login.aspx");
         }
     }
 }

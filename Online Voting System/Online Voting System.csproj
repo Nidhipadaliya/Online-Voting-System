@@ -72,6 +72,8 @@
     <Content Include="Admin\CreateElection.aspx" />
     <Content Include="Admin\ManageCandidates.aspx" />
     <Content Include="Admin\ManageUsers.aspx" />
+    <Content Include="Admin\Queries.aspx" />
+    <Content Include="Admin\UpcomingElections.aspx" />
     <Content Include="Admin\ViewResults.aspx" />
     <Content Include="App_Data\ovsdb.mdf" />
     <Content Include="App_Data\ovsdb_log.ldf">
@@ -81,19 +83,25 @@
     <Content Include="Images\candidate1.jpeg" />
     <Content Include="Images\candidate2.jpeg" />
     <Content Include="Images\candidate3.jpeg" />
-    <Content Include="Images\cultural-committee.jpeg" />
-    <Content Include="Images\sports-secretary.jpeg" />
-    <Content Include="Images\student-president.jpeg" />
+    <Content Include="Images\vote-banner.jpg" />
     <Content Include="Images\voting-bg.jpeg" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="Styles\admin-dashboard.css" />
+    <Content Include="Styles\createelection.css" />
     <Content Include="Styles\electionlist.css" />
     <Content Include="Styles\home.css" />
     <Content Include="Styles\login.css" />
+    <Content Include="Styles\managecandidates.css" />
+    <Content Include="Styles\manageusers.css" />
     <Content Include="Styles\register.css" />
     <Content Include="Styles\site.css" />
+    <Content Include="Styles\upcomingelections.css" />
     <Content Include="Styles\user-dashboard.css" />
+    <Content Include="Styles\viewresults.css" />
+    <Content Include="Styles\votecasting.css" />
+    <Content Include="User\ContactUs.aspx" />
     <Content Include="User\ElectionList.aspx" />
     <Content Include="User\UserDashboard.aspx" />
     <Content Include="User\VoteCasting.aspx" />
@@ -128,6 +136,20 @@
     </Compile>
     <Compile Include="Admin\ManageUsers.aspx.designer.cs">
       <DependentUpon>ManageUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Queries.aspx.cs">
+      <DependentUpon>Queries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Queries.aspx.designer.cs">
+      <DependentUpon>Queries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UpcomingElections.aspx.cs">
+      <DependentUpon>UpcomingElections.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UpcomingElections.aspx.designer.cs">
+      <DependentUpon>UpcomingElections.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\ViewResults.aspx.cs">
       <DependentUpon>ViewResults.aspx</DependentUpon>
@@ -171,6 +193,13 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\ElectionList.aspx.cs">
       <DependentUpon>ElectionList.aspx</DependentUpon>

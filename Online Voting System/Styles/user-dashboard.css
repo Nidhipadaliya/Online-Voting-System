@@ -1,109 +1,73 @@
-﻿/* ===== User Dashboard Styling ===== */
-
-/* Background for the dashboard area */
-body {
-    background-color: #f4f6f8;
-    font-family: Arial, sans-serif;
-}
-
-/* Banner at the top of the dashboard */
+﻿/* Banner */
 .dashboard-banner {
     background: linear-gradient(90deg, #003366, #0059b3);
     color: white;
-    padding: 25px;
-    border-radius: 10px;
-    text-align: center;
-    margin-bottom: 25px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 30px;
+    border-radius: 12px;
 }
 
     .dashboard-banner h1 {
-        font-size: 1.8rem;
-        margin-bottom: 10px;
-    }
-
-    .dashboard-banner p {
-        font-size: 1rem;
-        opacity: 0.9;
+        font-size: 2rem;
     }
 
 .username {
     color: #ffcc00;
 }
 
-/* ===== Stats Section ===== */
-.stats-section {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-bottom: 25px;
-    flex-wrap: wrap;
-}
-
+/* Stat Cards */
 .stat-card {
-    background: white;
-    padding: 20px;
-    width: 200px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
     .stat-card h2 {
         color: #003366;
         font-size: 2rem;
-        margin: 0;
+        font-weight: bold;
     }
 
     .stat-card p {
+        margin: 0;
         color: #555;
-        font-size: 0.95rem;
-        margin-top: 5px;
     }
 
     .stat-card:hover {
         transform: translateY(-5px);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.2);
     }
 
-/* ===== Dashboard Action Buttons ===== */
-.dashboard-cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    padding-bottom: 20px;
-}
-
-.card {
+/* Action Cards */
+.action-card {
     background: linear-gradient(135deg, #0059b3, #003366);
     color: white;
-    padding: 20px 30px;
-    border-radius: 10px;
-    text-decoration: none;
+    border-radius: 12px;
     font-size: 1.2rem;
     font-weight: bold;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    min-width: 200px;
-    text-align: center;
+    text-decoration: none;
+    transition: transform 0.3s ease, background 0.3s ease;
 }
 
-    .card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    .action-card span {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .action-card:hover {
         background: linear-gradient(135deg, #003366, #002244);
+        transform: translateY(-5px);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.3);
     }
 
-/* Make the dashboard responsive */
+/* Responsive */
 @media (max-width: 768px) {
-    .stat-card {
-        width: 100%;
-        max-width: 250px;
+    .dashboard-banner {
+        padding: 20px;
     }
 
-    .card {
-        width: 100%;
-        max-width: 300px;
+    .stat-card {
+        width: 90%;
+        margin: auto;
     }
 }

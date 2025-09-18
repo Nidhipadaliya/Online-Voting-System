@@ -1,72 +1,44 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="VoteCasting.aspx.cs" Inherits="Online_Voting_System.User.VoteCasting" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style>
-        
-        .navbar-nav .nav-link,
-        .navbar-brand {
-            color: white !important;
-        }
-        .navbar-nav .nav-link:hover,
-        .navbar-brand:hover {
-            color: #ffcc00 !important;
-        }
-        
-        .card-img-top {
-            height: 250px;
-            object-fit: contain; 
-            background-color: #f8f9fa;
-        }
-
-    </style>
+    <link href="../Styles/votecasting.css" rel="stylesheet" />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container my-5">
+        <!-- Title -->
         <div class="row mb-4">
             <div class="col text-center">
-                <h2 class="fw-bold">Vote Casting</h2>
-                <p class="text-muted">Election: <strong>Student President Election</strong></p>
+                <h2 class="fw-bold text-primary">Vote Casting</h2>
+                <p class="text-muted">Choose your candidate below</p>
             </div>
         </div>
 
         <!-- Candidate Cards -->
         <div class="row">
-            <!-- Candidate 1 -->
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm h-100">
-                    <img src="../Images/candidate1.jpeg" class="card-img-top" alt="Candidate 1">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">John Smith</h5>
-                        <p class="card-text">Committed to improving student facilities and organizing more events.</p>
-                        <asp:Button ID="btnVoteJohn" runat="server" Text="Vote for John" CssClass="btn btn-primary w-100" />
+            <asp:Repeater ID="rptCandidates" runat="server">
+                <ItemTemplate>
+                    <div class="col-md-4 mb-4">
+                        <div class="card candidate-card shadow-sm h-100">
+                            <img src='<%# ResolveUrl(Eval("Image").ToString()) %>' class="card-img-top" alt="Candidate Image" style="height:250px; object-fit:cover;" />
+                            <div class="card-body text-center d-flex flex-column">
+                                <h5 class="card-title"><%# Eval("FullName") %></h5>
+                                <p class="card-text"><%# Eval("Description") %></p>
+                                <asp:Button ID="btnVote" runat="server" Text="Vote" CssClass="btn vote-btn mt-auto"
+                                    CommandArgument='<%# Eval("CandidateId") %>' />
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            <!-- Candidate 2 -->
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm h-100">
-                    <img src="../Images/candidate2.jpeg" class="card-img-top" alt="Candidate 2">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Sarah Johnson</h5>
-                        <p class="card-text">Focused on academic support programs and better communication channels.</p>
-                        <asp:Button ID="btnVoteSarah" runat="server" Text="Vote for Sarah" CssClass="btn btn-primary w-100" />
-                    </div>
-                </div>
-            </div>
-
-            <!-- Candidate 3 -->
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm h-100">
-                    <img src="../Images/candidate3.jpeg" class="card-img-top" alt="Candidate 3">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Michael Lee</h5>
-                        <p class="card-text">Passionate about sports, cultural events, and student engagement.</p>
-                        <asp:Button ID="btnVoteMichael" runat="server" Text="Vote for Michael" CssClass="btn btn-primary w-100" />
-                    </div>
-                </div>
-            </div>
+                </ItemTemplate>
+            </asp:Repeater>
         </div>
+
+        <!-- No Election Message -->
+        <asp:Panel ID="pnlNoElection" runat="server" Visible="false">
+            <div class="alert alert-info text-center mt-4">
+                <h5>No elections are currently running.</h5>
+                <p>Please check back later when a new election is started.</p>
+            </div>
+        </asp:Panel>
     </div>
 </asp:Content>
