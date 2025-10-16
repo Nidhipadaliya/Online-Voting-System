@@ -1,18 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="VotingStatus.aspx.cs" Inherits="Online_Voting_System.User.VotingStatus" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <!-- Add Bootstrap for this page only (safe even if already included in master) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-    <style>
-        .status-card {
-            max-width: 600px;
-            margin: auto;
-            border-radius: 10px;
-        }
-        .status-icon {
-            font-size: 60px;
-        }
-    </style>
+
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -32,23 +24,21 @@
             </div>
 
             <!-- Status Message -->
-            <h4 class="mt-3" id="statusMessage" runat="server">You have successfully cast your vote!</h4>
-            <p class="text-muted">Thank you for participating in the election.</p>
+            <h4 class="mt-3" id="statusMessage" runat="server"></h4>
+            
 
             <!-- Partial Results -->
             <div class="mt-4">
                 <h5>Current Votes Summary</h5>
-                <ul class="list-group text-start">
-                    <li class="list-group-item d-flex justify-content-between">
-                        John Smith <span class="badge bg-primary rounded-pill">120</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between">
-                        Sarah Johnson <span class="badge bg-primary rounded-pill">98</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between">
-                        Michael Lee <span class="badge bg-primary rounded-pill">105</span>
-                    </li>
-                </ul>
+                <asp:Label ID="resultsMessage" runat="server" CssClass="text-danger fw-bold"></asp:Label>
+                <asp:Repeater ID="resultsList" runat="server">
+                    <ItemTemplate>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <%# Eval("FullName") %>
+                            <span class="badge bg-primary rounded-pill"><%# Eval("VoteCount") %></span>
+                        </li>
+                    </ItemTemplate>
+                </asp:Repeater>
             </div>
 
             <!-- Back Button -->

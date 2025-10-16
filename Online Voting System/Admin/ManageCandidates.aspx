@@ -8,7 +8,6 @@
     <div class="container my-5">
         <h2 class="mb-4 text-center fw-bold text-primary">Manage Candidates</h2>
 
-        <!-- Candidate Form -->
         <div class="card p-4 mb-4 shadow-sm">
             <div class="mb-3">
                 <label class="form-label">Candidate Name</label>
@@ -29,7 +28,6 @@
             <asp:Button ID="btnAddCandidate" runat="server" Text="Add Candidate" CssClass="btn btn-success" OnClick="btnAddCandidate_Click" />
         </div>
 
-        <!-- Candidate List -->
         <asp:GridView ID="gvCandidates" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered table-hover shadow-sm"
             DataKeyNames="CandidateId" OnRowCommand="gvCandidates_RowCommand">
             <Columns>

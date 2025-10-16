@@ -8,7 +8,6 @@
     <div class="container my-5">
         <h2 class="mb-4 text-center fw-bold text-primary">Manage Upcoming Elections</h2>
 
-        <!-- GridView to manage elections -->
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False"
             CssClass="table table-striped table-hover shadow-sm"
             DataKeyNames="ElectionId" OnRowCommand="GridView1_RowCommand">

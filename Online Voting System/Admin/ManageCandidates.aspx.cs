@@ -22,6 +22,11 @@ namespace Online_Voting_System.Admin
         String fnm;
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["UserID"] == null)
+            {
+                Response.Redirect("~/Login.aspx");
+                return;
+            }
             getcon();
             if (!IsPostBack)
             {
@@ -63,11 +68,7 @@ namespace Online_Voting_System.Admin
         void BindCandidates()
         {
             getcon();
-            string query = @"SELECT c.CandidateId, c.FullName, c.Description, c.Image, e.Title AS ElectionTitle 
-                                 FROM Candidates c 
-                                 INNER JOIN Elections e ON c.ElectionId = e.ElectionId";
-
-            da = new SqlDataAdapter(query, con);
+            da = new SqlDataAdapter(@"SELECT c.CandidateId, c.FullName, c.Description, c.Image, e.Title AS ElectionTitle FROM Candidates c  INNER JOIN Elections e ON c.ElectionId = e.ElectionId", con);
             ds = new DataSet();
             da.Fill(ds);
 

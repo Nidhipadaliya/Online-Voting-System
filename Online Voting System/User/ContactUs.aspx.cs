@@ -23,6 +23,11 @@ namespace Online_Voting_System.User
         String fnm;
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["UserID"] == null)
+            {
+                Response.Redirect("~/Login.aspx");
+                return;
+            }
             getcon();
         }
 

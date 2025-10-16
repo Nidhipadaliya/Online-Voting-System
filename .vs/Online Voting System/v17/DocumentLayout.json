@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "D:\\BCA\\Asp.net\\Online Voting System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|D:\\BCA\\Asp.net\\Online Voting System\\online voting system\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|d:\\bca\\asp.net\\online voting system\\online voting system\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|D:\\BCA\\Asp.net\\Online Voting System\\online voting system\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|D:\\BCA\\Asp.net\\Online Voting System\\online voting system\\admin\\managecandidates.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\admin\\managecandidates.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|D:\\BCA\\Asp.net\\Online Voting System\\online voting system\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|D:\\BCA\\Asp.net\\Online Voting System\\online voting system\\admin\\upcomingelections.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\admin\\upcomingelections.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|d:\\bca\\asp.net\\online voting system\\online voting system\\user\\electionlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\user\\electionlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|D:\\BCA\\Asp.net\\Online Voting System\\online voting system\\user\\votecasting.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\user\\votecasting.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|d:\\bca\\asp.net\\online voting system\\online voting system\\admin\\manageusers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\admin\\manageusers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|D:\\BCA\\Asp.net\\Online Voting System\\online voting system\\user\\votingstatus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\user\\votingstatus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|d:\\bca\\asp.net\\online voting system\\online voting system\\admin\\manageusers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\admin\\manageusers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|d:\\bca\\asp.net\\online voting system\\online voting system\\admin\\createelection.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\admin\\createelection.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|D:\\BCA\\Asp.net\\Online Voting System\\online voting system\\user\\electionlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8FCDC-16E9-4009-B834-18EFCF8E326C}|Online Voting System\\Online Voting System.csproj|solutionrelative:online voting system\\user\\electionlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,84 +43,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ElectionList.aspx",
-              "DocumentMoniker": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\User\\ElectionList.aspx",
-              "RelativeDocumentMoniker": "Online Voting System\\User\\ElectionList.aspx",
-              "ToolTip": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\User\\ElectionList.aspx",
-              "RelativeToolTip": "Online Voting System\\User\\ElectionList.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-18T09:02:15.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ManageUsers.aspx",
-              "DocumentMoniker": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\Admin\\ManageUsers.aspx",
-              "RelativeDocumentMoniker": "Online Voting System\\Admin\\ManageUsers.aspx",
-              "ToolTip": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\Admin\\ManageUsers.aspx",
-              "RelativeToolTip": "Online Voting System\\Admin\\ManageUsers.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-18T09:00:16.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ManageUsers.aspx.cs",
-              "DocumentMoniker": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\Admin\\ManageUsers.aspx.cs",
-              "RelativeDocumentMoniker": "Online Voting System\\Admin\\ManageUsers.aspx.cs",
-              "ToolTip": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\Admin\\ManageUsers.aspx.cs",
-              "RelativeToolTip": "Online Voting System\\Admin\\ManageUsers.aspx.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T08:59:38.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateElection.aspx.cs",
-              "DocumentMoniker": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\Admin\\CreateElection.aspx.cs",
-              "RelativeDocumentMoniker": "Online Voting System\\Admin\\CreateElection.aspx.cs",
-              "ToolTip": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\Admin\\CreateElection.aspx.cs",
-              "RelativeToolTip": "Online Voting System\\Admin\\CreateElection.aspx.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAzwDMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T08:59:24.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "Online Voting System\\Login.aspx.cs",
-              "ToolTip": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\Login.aspx.cs",
-              "RelativeToolTip": "Online Voting System\\Login.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T12:55:49.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.aspx.cs",
-              "DocumentMoniker": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\Register.aspx.cs",
-              "RelativeDocumentMoniker": "Online Voting System\\Register.aspx.cs",
-              "ToolTip": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\Register.aspx.cs",
-              "RelativeToolTip": "Online Voting System\\Register.aspx.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T12:38:48.783Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -137,6 +55,71 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-09-13T12:24:32.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpcomingElections.aspx.cs",
+              "DocumentMoniker": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\Admin\\UpcomingElections.aspx.cs",
+              "RelativeDocumentMoniker": "Online Voting System\\Admin\\UpcomingElections.aspx.cs",
+              "ToolTip": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\Admin\\UpcomingElections.aspx.cs",
+              "RelativeToolTip": "Online Voting System\\Admin\\UpcomingElections.aspx.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T09:00:10.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageCandidates.aspx.cs",
+              "DocumentMoniker": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\Admin\\ManageCandidates.aspx.cs",
+              "RelativeDocumentMoniker": "Online Voting System\\Admin\\ManageCandidates.aspx.cs",
+              "ToolTip": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\Admin\\ManageCandidates.aspx.cs",
+              "RelativeToolTip": "Online Voting System\\Admin\\ManageCandidates.aspx.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T09:00:05.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VoteCasting.aspx.cs",
+              "DocumentMoniker": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\User\\VoteCasting.aspx.cs",
+              "RelativeDocumentMoniker": "Online Voting System\\User\\VoteCasting.aspx.cs",
+              "ToolTip": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\User\\VoteCasting.aspx.cs",
+              "RelativeToolTip": "Online Voting System\\User\\VoteCasting.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T07:01:39.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VotingStatus.aspx.cs",
+              "DocumentMoniker": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\User\\VotingStatus.aspx.cs",
+              "RelativeDocumentMoniker": "Online Voting System\\User\\VotingStatus.aspx.cs",
+              "ToolTip": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\User\\VotingStatus.aspx.cs",
+              "RelativeToolTip": "Online Voting System\\User\\VotingStatus.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T07:01:44.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ElectionList.aspx.cs",
+              "DocumentMoniker": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\User\\ElectionList.aspx.cs",
+              "RelativeDocumentMoniker": "Online Voting System\\User\\ElectionList.aspx.cs",
+              "ToolTip": "D:\\BCA\\Asp.net\\Online Voting System\\Online Voting System\\User\\ElectionList.aspx.cs",
+              "RelativeToolTip": "Online Voting System\\User\\ElectionList.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T09:00:31.238Z",
               "EditorCaption": ""
             }
           ]

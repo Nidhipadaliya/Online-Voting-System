@@ -11,9 +11,8 @@ namespace Online_Voting_System.Styles
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-            Session.Clear();
-            Session.Abandon();
-
+			Session.Abandon();
+			Session.Clear();
             Response.Redirect("~/Login.aspx");
         }
 	}

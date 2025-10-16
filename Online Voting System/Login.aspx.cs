@@ -32,12 +32,13 @@ namespace Online_Voting_System
             string username = txtUsername.Text;
             string role = ddlRole.SelectedValue;
 
-            cmd = new SqlCommand("SELECT COUNT(*) FROM Users WHERE Email='" + txtUsername.Text + "' AND Password='" + txtPassword.Text + "' AND Role='" + ddlRole.SelectedValue + "'", con);
+            cmd = new SqlCommand("SELECT UserID  FROM Users WHERE Email='" + txtUsername.Text + "' AND Password='" + txtPassword.Text + "' AND Role='" + ddlRole.SelectedValue + "'", con);
 
-            int exists = (int)cmd.ExecuteScalar();
+            object result = cmd.ExecuteScalar();
 
-            if (exists > 0)
+            if (result != null)
             {
+                Session["UserID"] = Convert.ToInt32(result);
                 Session["email"] = username;
                 Session["role"] = role;
 

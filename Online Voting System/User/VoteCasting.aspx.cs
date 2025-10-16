@@ -21,13 +21,18 @@ namespace Online_Voting_System.User
         SqlCommand cmd;
         SqlDataAdapter da;
         DataSet ds;
-        String fnm;
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["UserID"] == null)
+            {
+                Response.Redirect("~/Login.aspx");
+                return;
+            }
+
             getcon();
             if (!IsPostBack)
             {
-                BindCandidates();
+                fillcandidate();
             }
         }
 
@@ -37,24 +42,20 @@ namespace Online_Voting_System.User
             con.Open();
         }
 
-        void BindCandidates()
+        void fillcandidate()
         {
             getcon();
-            string query = @"SELECT c.CandidateId, c.FullName, c.Description, c.Image, e.Title 
-                                 FROM Candidates c 
-                                 INNER JOIN Elections e ON c.ElectionId = e.ElectionId 
-                                 WHERE e.Status = 'Ongoing'"
-            ;
+            da = new SqlDataAdapter("SELECT c.CandidateId, c.FullName, c.Description, c.Image, e.Title, e.ElectionId FROM Candidates c INNER JOIN Elections e ON c.ElectionId = e.ElectionId WHERE e.Status='Ongoing'", con);
+            ds = new DataSet();
+            da.Fill(ds, "Candidate");
 
-            SqlDataAdapter da = new SqlDataAdapter(query, con);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-
-            if (dt.Rows.Count > 0)
+            if (ds.Tables["Candidate"].Rows.Count > 0)
             {
-                rptCandidates.DataSource = dt;
+                rptCandidates.DataSource = ds.Tables["Candidate"];
                 rptCandidates.DataBind();
                 pnlNoElection.Visible = false;
+
+                ViewState["ElectionId"] = ds.Tables["Candidate"].Rows[0]["ElectionId"].ToString();
             }
             else
             {
@@ -63,6 +64,33 @@ namespace Online_Voting_System.User
                 pnlNoElection.Visible = true;
             }
         }
+        protected void rptCandidates_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+            if (e.CommandName == "Vote")
+            {
+                int candidateId = Convert.ToInt32(e.CommandArgument);
+                int electionId = Convert.ToInt32(ViewState["ElectionId"]);
+                int userId = Convert.ToInt32(Session["UserId"]);
 
+                getcon();
+
+                da = new SqlDataAdapter("SELECT * FROM Votes WHERE UserId='" + userId + "' AND ElectionId='" + electionId + "'", con);
+                ds = new DataSet();
+                da.Fill(ds);
+
+                if (ds.Tables[0].Rows.Count > 0)
+                {
+                    Response.Redirect("VotingStatus.aspx?status=already");
+                }
+                else
+                {
+                    cmd = new SqlCommand("INSERT INTO Votes (UserId, ElectionId, CandidateId) VALUES ('" + userId + "','" + electionId + "','" + candidateId + "')", con);
+                    cmd.ExecuteNonQuery();
+
+                    Response.Redirect("VotingStatus.aspx?status=success");
+                }
+            }
+
+        }
     }
 }
